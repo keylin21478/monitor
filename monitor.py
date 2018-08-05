@@ -32,9 +32,9 @@ def judge(target1):
 
 # 邮件发送函数
 def mail(msgSend):
-    my_sender = '421056455@qq.com'  # 发件人邮箱账号
-    my_pass = 'jaubalfbzdlubibi'  # 发件人邮箱密码(当时申请smtp给的口令)
-    my_user = '421056455@qq.com'  # 收件人邮箱账号，我这边发送给自己
+    my_sender = 'xxx@qq.com'  # 发件人邮箱账号
+    my_pass = 'jaulubibi'  # 发件人邮箱密码(当时申请smtp给的口令)
+    my_user = 'xxx@qq.com'  # 收件人邮箱账号，我这边发送给自己
     ret = True
     try:
         msg = MIMEText(msgSend, 'plain', 'utf-8')
